@@ -4,6 +4,7 @@ import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPoop } from '@fortawesome/free-solid-svg-icons'
+import '../node_modules/@fortawesome/fontawesome-svg-core/styles.css'
 
 
 const Works = () => {
