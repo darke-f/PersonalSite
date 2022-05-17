@@ -52,7 +52,7 @@ const Int = () => {
                                     <ExpLoc>What&apos;s your favorite game?</ExpLoc>
                                     <Paragraph>
                                         Easy, Fallout New Vegas. It still hasn&apos;t changed even after all this years. For those of you who are not familiar, fallout new vegas (FNV) is a game that is
-                                        set in a post nuclear war world, during the year 2281 within the region surrounding the former city of Las Vegas (now called "New Vegas"). FNV is a action rpg game which many consider as the best in
+                                        set in a post nuclear war world, during the year 2281 within the region surrounding the former city of Las Vegas (now called "New Vegas"). FNV is an action rpg game which many consider as the best in
                                         the genre, and also the best game ever made. Why you may ask? Well i&apos;d say go play it for yourself and find out. But in summary, the games has a superb atmosphere and wolrd building, tons and tons of
                                         interesting characters, amazing story, actually fun politics (shocker i know) and tons of other stuff while allowing the player to essentially play the game in any way they see fit. After more than a
                                         decade though, the graphics is not pretty outdated, and some gameplay elements are too but i still encourage you to check it out for yourself!
@@ -63,7 +63,7 @@ const Int = () => {
                             <GridF thumbnail={thumbFOp} title="Game opening" />
                             <GridF thumbnail={thumbFW} title="Mojave Wasteland" />
                             <GridF thumbnail={thumbFV} title="Legion Frumentarii" />
-                            <GridF thumbnail={thumbFJ} title='"The burned man"' />
+                            <GridF thumbnail={thumbFJ} title="&quot;The burned man&quot;" />
                             </SimpleGrid>
                         </Section>
                         <Section delay={0.3}>
@@ -80,7 +80,7 @@ const Int = () => {
                             </Box>
                             <SimpleGrid mt={8} columns={[1]} gap={6}>
                             <GridH thumbnail={thumbHB} title="Become a professional assassin" />
-                            <GridH thumbnail={thumbHT} title='"Partners of Providence"' />
+                            <GridH thumbnail={thumbHT} title="&quot;Partners of Providence&quot;" />
                             <GridH thumbnail={thumbHM} title="Hitman 3 maps" />
                             </SimpleGrid>
                         </Section>
