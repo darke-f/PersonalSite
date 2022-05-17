@@ -1,9 +1,7 @@
-import { Container, Box, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPoop } from '@fortawesome/free-solid-svg-icons'
 
 
 const Proj = () => {

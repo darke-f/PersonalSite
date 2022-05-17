@@ -26,7 +26,7 @@ const Page = () => {
                         About
                     </Heading>
                     <Paragraph>
-                        How do you do! My name is Ariiq Firanda Naufal or Ariiq for short. On this site you'll find info and tidbis about me ranging from employment, interests, what I'm currently working on, and everything in between.
+                        How do you do! My name is Ariiq Firanda Naufal or Ariiq for short. On this site you&apos;ll find info and tidbis about me ranging from employment, interests, what I&apos;m currently working on, and everything in between.
                         You can use the navbar at the top of the page to navigate to different sections, you can also use the button on the top right to change the viewing mode from day to night and vice versa. 
                         The website will periodically be updated when there is new info. Have fun exploring the site!
                     </Paragraph>
