@@ -18,18 +18,20 @@ padding: 10px;
 `
 
 const Logo = () => {
-    const apertureImg = `/images/aperture${useColorModeValue('', '-dark')}.png`
+    const apertureImg = `/images/aperture${useColorModeValue('','')}.png`
 
     return (
         <Link href="/" scroll={false}>
             <a>
                 <LogoBox>
-                    <Image src={apertureImg} width={20} height={20} alt="logo" />
+                    <Image style={{marginBottom: '2.5px'}} src={apertureImg} width={20} height={20} alt="logo"/>
                     <Text
-                        color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-                        fontFamily='M PLUS Rounded 1c'
+                        color={useColorModeValue('#312A4D', 'black')}
+                        fontFamily='Red Hat Text'
                         fontWeight="bold"
-                        ml={3}> 
+                        fontSize="22"
+                        ml={3}
+                        mb={1.5}> 
                             Ariiq F
                     </Text>
 

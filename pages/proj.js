@@ -8,7 +8,7 @@ const Proj = () => {
     return (
         <Layout>
             <Container>
-                <Heading as="h3" variant="section-head">
+                <Heading as="h3" variant="section-title">
                     Projects
                 </Heading>
                 <Section delay={0.1}>

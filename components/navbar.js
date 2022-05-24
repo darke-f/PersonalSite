@@ -19,10 +19,10 @@ import ThemeToggleButton from './theme-toggle-button.js'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
     const active = path === href
-    const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
+    const inactiveColor = useColorModeValue('#312A4D', 'black')
     return (
         <NextLink href={href}>
-            <Link p={2} bg={active ? 'grassTeal' : undefined} color={active ? '#202023' : inactiveColor} target={target} {...props}>
+            <Link p={2} color={active ? '#202023' : inactiveColor} target={target} {...props}>
                 {children}
             </Link>
         </NextLink>
@@ -33,7 +33,7 @@ const Navbar = props => {
     const { path } = props
     
     return (
-        <Box position="fixed" as="nav" w="100%" bg={useColorModeValue('#ffffff40', '#20202380')} css={{backdropFilter:'blur(10px)'}} zIndex={1} {...props}>
+        <Box position="fixed" as="nav" w="100%" bgGradient={useColorModeValue('linear(to-b, #D8EFF7 75%, #FFD8BE)', 'linear(to-b, white 75%, #202023)')} opacity="90%" css={{backdropFilter:'blur(10px)'}} zIndex={1} {...props}>
             <Container display="flex" p={2} maxW="container.lg" wrap="wrap" align="center" justify="space-between">
                 <Flex align="center" mr={5}>
                     <Heading as="h1" size="lg" letterSpacing={'tighter'}>
@@ -63,7 +63,7 @@ const Navbar = props => {
                     <ThemeToggleButton />
                     <Box ml={2} display={{base: 'inline-block', md: 'none'}}>
                         <Menu>
-                            <MenuButton as={IconButton} icon={<HamburgerIcon />} variant="outline" aria-label="Options"/>
+                            <MenuButton as={IconButton} icon={<HamburgerIcon />} colorScheme={useColorModeValue('pink', 'orange')} size="sm" aria-label="Options"/>
                             <MenuList>
                                 <NextLink href="/" passHref>
                                     <MenuItem as={Link}>About</MenuItem>

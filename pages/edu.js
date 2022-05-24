@@ -10,7 +10,7 @@ const Edu = () => {
             <Container maxW="lg">
                     <Box>
                         <Box display={{md:'flex'}}>
-                            <Heading as="h3" variant="section-head">
+                            <Heading as="h3" variant="section-title">
                                 Education
                             </Heading>
                         </Box>
@@ -22,7 +22,7 @@ const Edu = () => {
                                     <Paragraph> Institut Teknologi Sepuluh Nopember or (ITS) is where i got my bachelors degree in Computer Science. I graduated with a GPA of 3.75/4.00.</Paragraph>
                                 </Box>
                                 <Box flexShrink={0} mt={{base: 4, md: 0}} ml={{md: 6}} align="center">
-                                    <Image borderColor="whiteAlpha.800" borderWidth={2} borderstyle="solid" maxWidth="100px" display="inline-block" borderRadius="full"  src="/images/its.gif" alt="ITS"/>
+                                    <Image borderColor="whiteAlpha.800" borderWidth={2} borderstyle="solid" maxWidth="100px" display="inline-block" borderRadius="full"  src="/images/its.jpg" alt="ITS"/>
                                 </Box>
                             </Box>
                         </Section>

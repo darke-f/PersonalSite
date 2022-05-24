@@ -24,13 +24,13 @@ const Int = () => {
     return (
         <Layout title="Interest">
             <Container maxW="3xl">
-                <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} textAlign="center" css={{backdropFilter: 'blur(10px)'}}>
+                <Box borderRadius="lg" bg={useColorModeValue('#58939C', 'white')} color={useColorModeValue('white', 'black')} p={3} mb={6} textAlign="center" css={{backdropFilter: 'blur(10px)'}}>
                     Welcome to the interest page! Obviously i have more interests than what&apos;ll be shown below like music, movies, etc. But if i include everything here, it&apos;s gonna be waaaaay too long. So i opt to choose two that&apos;ll be included.
                     Anyway, carry on!
                 </Box>
                     <Box>
                         <Box display={{md:'flex'}}>
-                            <Heading as="h3" variant="section-head">
+                            <Heading as="h3" variant="section-title">
                                 Gaming
                             </Heading>
                         </Box>
@@ -87,7 +87,7 @@ const Int = () => {
                         <Divider mt={3} mb={6} />
                         <Section delay={0.4}>
                             <Box display={{md:'flex'}}>
-                                <Heading as="h3" variant="section-head">
+                                <Heading as="h3" variant="section-title">
                                     Cooking
                                 </Heading>
                             </Box>

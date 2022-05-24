@@ -11,7 +11,7 @@ const Org = () => {
             <Container maxW="3xl">
                     <Box>
                         <Box display={{md:'flex'}}>
-                            <Heading as="h3" variant="section-head">
+                            <Heading as="h3" variant="section-title">
                                 Organizational Experience
                             </Heading>
                         </Box>

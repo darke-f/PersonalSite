@@ -11,7 +11,7 @@ const Works = () => {
     return (
         <Layout>
             <Container>
-                <Heading as="h3" variant="section-head">
+                <Heading as="h3" variant="section-title">
                     Employments
                 </Heading>
                 <Section delay={0.1}>
