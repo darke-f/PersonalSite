@@ -1,9 +1,9 @@
-import { Box } from '@chakra-ui/react'
+import { Box, useColorModeValue } from '@chakra-ui/react'
 import Image from 'next/image'
 
 const Banner = () => {
 
-    const bannerImg = `/images/loop.gif`
+    const bannerImg = `/images/loop${useColorModeValue('','-dark')}.gif`
 
     return (
         <Box display="flex" alignItems="center" my={6} justifyContent="center">
