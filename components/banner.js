@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Banner = () => {
 
-    const bannerImg = `/images/loop${useColorModeValue('.gif','-dark.GIF')}`
+    const bannerImg = `/images/loop${useColorModeValue('','-dark')}.gif`
 
     return (
         <Box display="flex" alignItems="center" my={6} justifyContent="center">
