@@ -13,7 +13,7 @@ const Page = () => {
                 </Center>
                 <Box display={{sm:'flex'}}>
                     <Box flexShrink={0} mt={{base: 4, md: 0}} mr={{sm: 6}} align="center">
-                        <Image borderColor="whiteAlpha.800" borderWidth={2} borderstyle="solid" maxWidth="100px" display="inline-block" borderRadius="full"  src="/images/pphoto.jpg" alt="Profile Photo"/>
+                        <Image borderColor="whiteAlpha.800" borderWidth={2} borderstyle="solid" maxWidth="100px" display="inline-block" borderRadius="full"  src="/images/pphoto.jpeg" alt="Profile Photo"/>
                     </Box>
                     <Box flexGrow={1} marginY="auto">
                         <Heading as="h2" variant="page-title">

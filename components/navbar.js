@@ -42,9 +42,6 @@ const Navbar = props => {
                 </Flex>
 
                 <Stack direction={{base: 'column', md: 'row'}} display={{base: 'none', md: 'flex'}} width={{base: 'full', md: 'auto'}} alignItems="center" flexGrow={1} mt={{base: 4, nmd: 0}}>
-                    <LinkItem href="/works" path={path}>
-                        Work Experience
-                    </LinkItem>
                     <LinkItem href="/edu" path={path}>
                         Education
                     </LinkItem>
@@ -53,9 +50,6 @@ const Navbar = props => {
                     </LinkItem>
                     <LinkItem href="/int" path={path}>
                         Interests
-                    </LinkItem>
-                    <LinkItem href="/proj" path={path}>
-                        Projects
                     </LinkItem>
                 </Stack>
 
@@ -68,9 +62,6 @@ const Navbar = props => {
                                 <NextLink href="/" passHref>
                                     <MenuItem as={Link}>About</MenuItem>
                                 </NextLink>
-                                <NextLink href="/works" passHref>
-                                    <MenuItem as={Link}>Work</MenuItem>
-                                </NextLink>
                                 <NextLink href="/edu" passHref>
                                     <MenuItem as={Link}>Education</MenuItem>
                                 </NextLink>
@@ -79,9 +70,6 @@ const Navbar = props => {
                                 </NextLink>
                                 <NextLink href="/int" passHref>
                                     <MenuItem as={Link}>Interests</MenuItem>
-                                </NextLink>
-                                <NextLink href="/proj" passHref>
-                                    <MenuItem as={Link}>Projects</MenuItem>
                                 </NextLink>
                             </MenuList>
                         </Menu>
